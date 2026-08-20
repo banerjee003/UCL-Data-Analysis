@@ -1,97 +1,106 @@
-# UEFA Champions League Data Analysis
+# ⚽ UEFA Champions League Analytics Dashboard
 
-## Overview
+<p align="center">
 
-This project analyzes UEFA Champions League match data from the last decade to uncover patterns in team performance, goal trends, and the impact of home advantage. The analysis was performed using Python with Pandas for data manipulation and Seaborn/Matplotlib for visualization.
+  <img src="images/logo.png" alt="UEFA Champions League Analytics" width="130"/>
 
-## Objectives
+  <h2 align="center">UEFA Champions League Analytics Dashboard</h2>
 
-* Analyze total matches and goals scored by each team
-* Calculate win percentages combining home and away performance
-* Study home advantage across seasons
-* Identify high-scoring teams and matches
-* Explore goal trends over different UCL seasons
+  <p align="center">
+    An interactive data analytics dashboard exploring historical UEFA Champions League match results,
+    team performance, goal trends, and match-level statistics.
+  </p>
 
-## Dataset
+  <p align="center">
+    <a href="YOUR_STREAMLIT_LIVE_LINK">
+      <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/>
+    </a>
+    &nbsp;
+    <a href="https://github.com/banerjee003/UCL-Data-Analysis">
+      <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github" alt="GitHub"/>
+    </a>
+  </p>
 
-The dataset contains match-level information with the following key fields:
+</p>
 
-* home_team, away_team
-* home_goals, away_goals
-* result (H/A/D)
-* season
+---
 
-A simplified version of the dataset was created to focus on core analysis.
+## 🚀 Live Dashboard
 
-## Tools & Libraries
+### 👉 [Open the UEFA Champions League Analytics Dashboard](https://pallab-ucl-data-analysis.streamlit.app/)
 
-* Python
-* Pandas – data cleaning and aggregation
-* NumPy – numerical operations
-* Seaborn & Matplotlib – visualization
-* Jupyter Notebook
+Explore the dashboard interactively:
 
-## Analysis Performed
+- Match outcome analysis
+- Team performance
+- Goal-scoring trends
+- High-scoring games
+- Match-level exploration
+- Historical Champions League statistics
 
-### 1. Match Outcome Analysis
+> **Note:** Replace `YOUR_STREAMLIT_LIVE_LINK` above with the actual Streamlit deployment URL.
 
-* Distribution of home wins, away wins, and draws
-* Calculation of home advantage percentage
-* Season-wise home win trends
+---
 
-### 2. Team Performance
+## 📌 Project Overview
 
-* Total matches played by each team
-* Total goals scored (home + away)
-* Most successful teams by win percentage
-* Teams with most high-scoring matches (5+ goals)
+The **UEFA Champions League Analytics Dashboard** is an interactive data analytics project built to explore historical Champions League match data.
 
-### 3. Goal Trends
+The project transforms raw match-level data into meaningful visual insights through an interactive **Streamlit dashboard**.
 
-* Goals scored per season
-* Identification of highest scoring season
-* Comparison of home vs away goal contribution
+Instead of looking at isolated match records, the dashboard allows users to understand broader patterns such as:
 
-## Key Insights
+- How often home teams win compared with away teams
+- Which teams consistently perform well
+- How goal-scoring patterns have changed across seasons
+- Which matches produced the highest number of goals
+- How a particular club performed across the available seasons
+- Individual match results between teams
 
-* Home teams win a significant proportion of matches, confirming the presence of home advantage in the Champions League.
-* A small group of elite clubs dominate in terms of total goals and win percentage.
-* Goal scoring peaked in specific seasons, indicating tactical shifts toward more attacking football.
-* High-scoring matches (5+ goals) are concentrated among top European teams.
-* Teams with strong home records generally show better overall tournament performance.
+The project combines **Python, Pandas, data visualization, exploratory data analysis, Jupyter Notebook, and Streamlit** into a single interactive analytics application.
 
-## Visualizations Included
+---
 
-* Top teams by total matches played
-* Top goal scoring teams
-* Goals per season trend
-* Home win percentage by season
-* Team win percentage ranking
+# 🎯 Objectives
 
-## How to Run
+The main objectives of this project are:
 
-1. Clone the repository
-2. Install required libraries
-3. Open the Jupyter Notebook
-4. Run all cells sequentially
+1. Analyze historical UEFA Champions League match results.
+2. Understand home-win, away-win, and draw distributions.
+3. Analyze team-level performance.
+4. Identify goal-scoring trends across seasons.
+5. Find high-scoring matches.
+6. Provide an interactive team search and analysis experience.
+7. Allow users to explore individual match records.
+8. Present analytical findings through an intuitive dashboard.
 
-```bash
-pip install pandas numpy matplotlib seaborn
-```
+---
 
-## Project Structure
+# 📊 Dashboard Features
 
-* ucl_super_easy.csv – simplified dataset
-* UCL_Analysis.ipynb – main analysis notebook
-* README.md – project documentation
+## 🏠 1. Overview
 
-## Future Scope
+The Overview section provides a high-level summary of the dataset.
 
-* Add player-level analysis
-* Compare knockout vs group stage performance
-* Include expected goals (xG) metrics
-* Build an interactive dashboard
+### Includes:
 
-## Author
+- Total matches
+- Number of seasons
+- Number of teams
+- Total goals
+- Average goals per match
+- Home-win percentage
+- Match result distribution
+- Result breakdown
+- Goals scored by season
+- Key analytical insights
 
-Pallab Banerjee
+### Example analysis:
+
+```text
+Home Wins
+Away Wins
+Draws
+Total Goals
+Average Goals / Match
+Home Advantage
