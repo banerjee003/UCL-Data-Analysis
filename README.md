@@ -12,7 +12,7 @@
   </p>
 
   <p align="center">
-    <a href="YOUR_STREAMLIT_LIVE_LINK">
+    <a href="https://pallab-ucl-data-analysis.streamlit.app/">
       <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/>
     </a>
     &nbsp;
